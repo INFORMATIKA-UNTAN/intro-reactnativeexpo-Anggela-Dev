@@ -21,3 +21,6 @@ v1
 - Push ke repo GitHub Anda
 - Buka Pull Request (template akan muncul otomatis)
 - Pastikan CI (lint & test) **hijau** ✅
+
+## refleksi
+Saat mengerjakan tugas Expo React Native, saya sempat mengalami kendala karena perbedaan versi antara project yang masih menggunakan SDK 52 dengan aplikasi Expo Go di Android yang sudah menggunakan SDK 53. Saya mencoba berbagai cara, termasuk meng-upgrade project ke SDK 53, namun justru muncul error merah TurboModuleRegistry,getEnforcing(...) ketika melakukan pemindaian barcode di Expo Go. Kebingungan membuat saya mencari solusi dari berbagai sumber seperti komunitas Expo, YouTube, hingga StackOverflow, dan mencoba berbagai saran yang diberikan. Setelah berjam-jam berusaha, akhirnya saya memutuskan untuk tidak melanjutkan upgrade dan memilih menurunkan versi Expo Go dari 53 ke 52. Keputusan ini akhirnya berhasil membuat project berjalan dengan baik, dan saya merasa sangat senang serta lega karena bisa menyelesaikan tugas meskipun penuh dengan tantangan.
